@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>QR Code</title>
+    
+</head>
+<header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="https://unimake.movidesk.com/kb/pt-br">Contato</a>
+        <a href="https://unimake.com.br/">Unimake Software</a>
+    </nav>
+</header>
+<body><section>
+    <a href="#" class="btn"></a>
+    <div id="codigo">
+        <h1>Crie seu QRCode</h1>
+        <textarea maxlength="400" rows="4" id="editor_back"></textarea>
+        <br>
+        <button class="botao" onclick="GerarQRCode()">QRCode Pequeno</button>
+        <button class="botao" onclick="GerarQRCode2()">QRCode Médio</button>
+        <button class="botao" onclick="ImprimirQRCode()">QRCode para Imprimir</button>
+        <br>
+        <img id="QRCodeImage">
+    </div>
+</section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
