@@ -19,3 +19,8 @@ function ImprimirQRCode() {
     var conteudoQRCode2 = GoogleChartAPI2 + encodeURIComponent(inputUsuario2);
     document.querySelector('#QRCodeImage').src = conteudoQRCode2
 }
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
